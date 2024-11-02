@@ -1,0 +1,29 @@
+.fooetr{
+    background-color: #f6f6f6;
+    margin-top: 140px;
+}
+
+.footer__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px;
+    gap: 170px;
+    
+}
+
+.footer__card{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    p{
+        opacity: 60%;
+    }
+}
+
+.last-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    opacity: 60%;
+}

@@ -1,0 +1,23 @@
+.header__wrap{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: #000;
+    gap: 60px;
+    
+   
+}
+
+.header__a{
+    display: flex;
+    gap: 30px;
+    a{
+        color: #000;
+        text-decoration: none;
+
+    }
+}
+
+.logo{
+    font-weight: 700;
+}

@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1100px;
+  
+}
+
+.basic-btn{
+  padding: 15px;
+  background-color:  #8EADD5;
+  max-width: 160px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  
+}
+h1{
+  /* // font-size: 48px; */
+  font-size: clamp(1rem, -0.099rem + 4.51vw, 3rem);
+  font-weight: 700;
+}

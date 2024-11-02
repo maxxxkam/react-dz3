@@ -1,0 +1,26 @@
+.part__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6f6;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 40px;
+}
+
+
+
+.part__card{
+    max-width: 400px;
+    display: flex;
+    gap: 20px;
+    // padding: 20px;
+
+    
+    flex-direction: column;
+    img{
+        width: 100%;
+    }
+}

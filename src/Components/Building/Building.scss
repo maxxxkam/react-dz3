@@ -1,0 +1,42 @@
+.building__wrapper{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.building__card{
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+    p{
+        font-size: 18px;
+    }
+    h1{
+        // font-size: 64px;
+        font-size: clamp(1.25rem, -0.261rem + 6.2vw, 4rem);
+        font-weight: 700;
+    }
+}
+
+.building__wrapper-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    gap: 30px;
+    p{
+        opacity: 50%;
+    }
+}
+
+.building__wrap{
+    display: flex;
+    gap: 110px;
+    background-color: #F6F6F6;
+    padding: 15px;
+    border-radius: 10px;
+}

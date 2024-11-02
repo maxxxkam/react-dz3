@@ -1,0 +1,36 @@
+.read__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 30px;
+}
+
+.read__wrap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.read__card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color:  #F6F6F6;
+    padding: 15px;
+    border-radius: 10PX;
+}
+
+.read__images{
+    max-width: 130px;
+    img{
+        width: 100%;
+    }
+}

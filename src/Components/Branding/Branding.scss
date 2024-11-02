@@ -1,0 +1,19 @@
+.branding__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+    margin-top: 150px;
+}
+
+.branding__card{
+    display: flex;
+    flex-direction: column;
+    max-width: 540px;
+    gap: 40px;
+    h1{
+        // font-size: 48px;
+        font-size: clamp(1rem, -0.099rem + 4.51vw, 3rem);
+        font-weight: 700;
+    }
+}
