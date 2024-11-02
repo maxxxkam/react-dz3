@@ -15,7 +15,7 @@ const Building = () => {
                 </div>
 
                 <div className="building__card">
-                    <img src="./public/BUILDING-IMG1.png" alt="" />
+                    <img src="/BUILDING-IMG1.png" alt="" />
 
                 </div>
             </div>
