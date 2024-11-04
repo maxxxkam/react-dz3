@@ -1,23 +1,80 @@
-.header__wrap{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    color: #000;
-    gap: 60px;
-    
-   
-}
+.header {
 
-.header__a{
-    display: flex;
-    gap: 30px;
-    a{
-        color: #000;
-        text-decoration: none;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
     }
-}
 
-.logo{
-    font-weight: 700;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #000;
+        gap: 60px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        z-index: 9;
+       
+
+        .header__links {
+            display: flex;
+            gap: 30px;
+           @media (max-width:600px) {
+            flex-direction: column;
+            text-align: center;
+           }
+
+            a {
+                color: #000;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline; // Добавил эффект при наведении
+                }
+            }
+        }
+
+        @media (max-width: 600px) {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            background-color: #8EADD5;
+            width: 100%;
+            height: 100vh; // Изменил на vh вместо 100dvh
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+
+            &.burger-active { // Изменил на burger-active
+                right: 0;
+            }
+        }
+    }
+
+    .burger {
+        width: 40px;
+        height: 40px;
+        display: none;
+        z-index: 10;
+        @media (max-width:600px) {
+            display: flex;
+        }
+
+       
+    }
+
+    .logo {
+        font-weight: 700;
+    }
 }

@@ -5,13 +5,16 @@
     justify-content: center;
     margin-top: 100px;
     gap: 30px;
+   
 }
 
 .read__wrap{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-
+    @media (max-width:750px) {
+        grid-template-columns: 1fr;
+    }
 }
 
 .read__card{

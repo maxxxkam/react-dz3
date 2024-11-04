@@ -8,6 +8,12 @@
     padding: 20px;
     border-radius: 10px;
     gap: 40px;
+    @media (max-width:700px) {
+       grid-template-columns: 1fr;
+       align-items: center;
+       justify-content: center;
+        
+    }
 }
 
 
@@ -23,4 +29,11 @@
     img{
         width: 100%;
     }
+    @media (max-width:700px) {
+       
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+   
 }

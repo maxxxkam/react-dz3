@@ -4,6 +4,15 @@
     justify-content: center;
     gap: 180px;
     margin-top: 150px;
+    @media (max-width:850px) {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        svg{
+            rotate: 90deg;
+        }
+    }
 }
 
 .branding__card{
@@ -11,6 +20,12 @@
     flex-direction: column;
     max-width: 540px;
     gap: 40px;
+    @media (max-width:850px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
     h1{
         // font-size: 48px;
         font-size: clamp(1rem, -0.099rem + 4.51vw, 3rem);
