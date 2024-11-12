@@ -38,6 +38,7 @@ const Fooetr = () => {
             </div>
             <p className='last-p'>© Matheus. Todos os direitos reservados</p>
         </div>
+        
     </footer>
   )
 }
