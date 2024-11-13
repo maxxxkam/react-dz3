@@ -16,11 +16,6 @@
             display: flex;
             gap: 30px;
 
-            @media (max-width: 600px) {
-                flex-direction: column;
-                text-align: center;
-                display: none; 
-            }
 
             .link {
                 color: #000;
@@ -34,8 +29,25 @@
 
 
         @media (max-width: 600px) {
-            .header__links.burger-active {
-                display: flex; 
+            transition: 0.5s;
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 100%;
+            height: 100dvh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .header__links {
+                flex-direction: column;
+                align-items: center;
+            }
+            background-color: gray;
+            &.burger-active {
+                right: 0;
             }
         }
     }
