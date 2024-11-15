@@ -15,6 +15,10 @@ const Header = () => {
                     <h1 className="logo">Digital Agency</h1>
                     <div className={`header__content ${burger ? 'burger-active' : ''}`}>
                         <div className="header__links">
+                            <a href="#Brending">Brending</a>
+                            <a href="#Building">Building</a>
+                            <a href="#Custome">Custome</a>
+                            <a href="#Part">Part</a>
                             <Link className="link" to={'/'}>Home</Link>
                             <Link className="link" to={'/About'}>About</Link>
                             <Link className="link" to={'/Testiminals'}>Testiminals</Link> 

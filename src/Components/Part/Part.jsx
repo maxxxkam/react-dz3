@@ -6,7 +6,7 @@ const Part = () => {
     <>
     <section className="part">
         <div className="container">
-            <div className="part__wrapper">
+            <div className="part__wrapper" id='Part'>
                 <div className="part__card">
                     <img src="/Part-img.png" alt="" />
                 </div>

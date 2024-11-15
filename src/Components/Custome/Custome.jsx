@@ -6,7 +6,7 @@ const Custome = () => {
     <>
     <section className="custome">
         <div className="container">
-            <div className="custome__wrapper">
+            <div className="custome__wrapper" id='Custome'>
                 <div className="custome__card">
                     <h1>Custome & Plugin Development</h1>
                     <p>Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups</p>

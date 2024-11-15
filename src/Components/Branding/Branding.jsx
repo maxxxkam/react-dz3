@@ -5,7 +5,7 @@ const Branding = () => {
   return (
     <section className="branding">
         <div className="container">
-            <div className="branding__wrapper">
+            <div className="branding__wrapper" id='Brending'>
                 <div className="branding__card">
                     <img src="/branding-img.png" alt="" />
                 </div>

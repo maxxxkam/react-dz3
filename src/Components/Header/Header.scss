@@ -1,4 +1,12 @@
 .header {
+    position: fixed;
+    top: 0;
+    // background-color: #fff;
+    right: 50%;
+    transform: translateX(50%);
+    width: 100%;
+    padding: 20px;
+    backdrop-filter: blur(20px);
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -17,7 +25,7 @@
             gap: 30px;
 
 
-            .link {
+            .link, a {
                 color: #000;
                 text-decoration: none;
 

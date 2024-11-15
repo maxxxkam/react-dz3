@@ -6,7 +6,7 @@ const Building = () => {
     <>
     <section className="building">
         <div className="container">
-            <div className="building__wrapper">
+            <div className="building__wrapper" id='Building'>
                 <div className="building__card">
                     <h1>Building digital products, brands & experience</h1>
                     <p>Digital Agency is your online team mangement tool that easy and prompt</p>
@@ -20,7 +20,7 @@ const Building = () => {
                 </div>
             </div>
 
-            <div className="building__wrapper-2">
+            <div className="building__wrapper-2" >
                 <p>Trusted by 4,000+ companies</p>
                 <div className="building__wrap">
                     <img src="/spotify-img.png" alt="" />
